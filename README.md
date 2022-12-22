@@ -52,3 +52,5 @@
 ## [Абстрактная фабрика (Abstract fabrick).](https://github.com/AlexLeXX444/JAVA-patterns/tree/main/abstractFabrickTask)
 
 ## [Одиночка (Singleton).](https://github.com/AlexLeXX444/JAVA-patterns/tree/main/singletoneTask)
+
+## [Строитель (Builder).](https://github.com/AlexLeXX444/JAVA-patterns/tree/main/builderTask)
