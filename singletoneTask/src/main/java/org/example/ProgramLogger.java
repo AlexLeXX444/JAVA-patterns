@@ -16,7 +16,7 @@ public class ProgramLogger {
     }
 
     public void addLogInfo(String logString) {
-        logString += logString + "\n";
+        this.logString += logString + "\n";
     }
 
     public void showLog() {

@@ -8,6 +8,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        ProgramLogger.getProgramLogger().addLogInfo("Something happening");
+        ProgramLogger.getProgramLogger().addLogInfo("Something happening again");
+        ProgramLogger.getProgramLogger().showLog();
     }
 }
