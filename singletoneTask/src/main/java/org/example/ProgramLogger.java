@@ -4,7 +4,7 @@ public class ProgramLogger {
     private static ProgramLogger programLogger;
     private static String logString = "Start log: \n\n";
 
-    public static ProgramLogger getProgramLogger() {
+    public static synchronized ProgramLogger getProgramLogger() {
         if (programLogger == null) {
             return new ProgramLogger();
         }
