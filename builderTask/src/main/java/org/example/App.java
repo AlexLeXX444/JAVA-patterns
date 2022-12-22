@@ -4,6 +4,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Director director = new Director();
+
+        director.setWebsiteBuilder(new EnterpriseWebsiteBuilder());
+        Website website = director.buildWebside();
+
+        System.out.println(website);
     }
 }
